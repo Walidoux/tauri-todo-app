@@ -55,11 +55,10 @@
     },
     "windows": [
       {
-        "fullscreen": false,
-        "height": 600,
+        "decorations": false,
         "resizable": true,
         "title": "Tauri App Test",
-        "width": 800
+        "width": 1000
       }
     ]
   }

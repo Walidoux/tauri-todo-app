@@ -22,5 +22,5 @@ jobs:
       - name: Install packages
         run: yarn --frozen-lockfile
 
-      - name: Build project
-        run: yarn build
+      - name: Build Tauri project
+        run: yarn tauri build

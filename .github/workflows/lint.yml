@@ -25,6 +25,9 @@ jobs:
       - name: Commit linting
         run: yarn lint:commit -- --to '${{ github.sha }}'
 
+      - name: ESlint linting
+        run: yarn lint:eslint
+
       - name: Prettier linting
         run: yarn lint:prettier
 
